@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Charge Interview Club (SCIC)</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #2c2c54; /* Dark theme background */
+      }
+
+      .purple-theme {
+        background-color: #6a0dad; /* Purple background */
+      }
+
+      /* Custom styles for input and select elements */
+      .input-style {
+        background-color: #3f3f6a; /* Input background color */
+        color: white; /* Text color */
+      }
+
+      .select-style {
+        background-color: #3f3f6a; /* Select background color */
+        color: white; /* Text color */
+      }
+
+      .input-style::placeholder {
+        color: #aaa; /* Placeholder text color */
+      }
+    </style>
+  </head>
+
+  <body class="container mx-auto text-white px-5">
+    <h1
+      class="mt-10 text-4xl font-bold mb-8 purple-theme p-5 rounded-lg shadow-lg text-center"
+    >
+      Super Charge Interview Club (SCIC)
+    </h1>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full">
+      <!-- Input boxes for 12 assignments -->
+      <div class="grid grid-cols-1 gap-2">
+        <h2 class="text-xl font-semibold">Assignment Scores</h2>
+        <!-- Loop to create 12 input boxes -->
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 1</span>
+          <input
+            type="number"
+            id="assignment1"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score1" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 2</span>
+          <input
+            type="number"
+            id="assignment2"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score2" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 3</span>
+          <input
+            type="number"
+            id="assignment3"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score3" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 4</span>
+          <input
+            type="number"
+            id="assignment4"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score4" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 5</span>
+          <input
+            type="number"
+            id="assignment5"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score5" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 6</span>
+          <input
+            type="number"
+            id="assignment6"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score6" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 7</span>
+          <input
+            type="number"
+            id="assignment7"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score7" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 8</span>
+          <input
+            type="number"
+            id="assignment8"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score8" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 9</span>
+          <input
+            type="number"
+            id="assignment9"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score9" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 10</span>
+          <input
+            type="number"
+            id="assignment10"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score10" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 11</span>
+          <input
+            type="number"
+            id="assignment11"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score11" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <span>Assignment 12</span>
+          <input
+            type="number"
+            id="assignment12"
+            class="border p-2 rounded input-style"
+            min="0"
+            max="60"
+            placeholder="Marks"
+          />
+          <select id="score12" class="border p-2 rounded select-style">
+            <option value="60" selected>60</option>
+            <option value="50">50</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Box for total scores and average -->
+      <div class="purple-theme p-4 rounded-lg shadow-lg mt-8">
+        <h2 class="text-xl font-semibold">Scores Summary</h2>
+        <div class="mt-4">
+          <p>Total score till now: <span id="totalScore">0</span></p>
+          <p>Total average score till now: <span id="totalAverage">0</span></p>
+          <p>
+            Maintain average of 50 in the rest 5 assignments to secure SCIC.
+          </p>
+          <p>Maintain 70 in assignment 11 and 12.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
